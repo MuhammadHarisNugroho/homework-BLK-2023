@@ -37,3 +37,20 @@ let luasPersegiPanjang = panjang * lebar;
 // Luas Persegi Panjang:
 console.log("Luas Persegi Panjang: " + luasPersegiPanjang);
 
+// 4. Kalkulator Hitung Luas Trapesium
+
+// Panjang alas bawah trapesium:
+let panjangAlas1 = 6;
+
+// Panjang alas atas trapesium:
+let panjangAlas2 = 10;
+
+// Tinggi trapesium:
+let tinggi1 = 5;
+
+// Rumus:
+let luasTrapesium = 0.5 * (panjangAlas1 + panjangAlas2) * tinggi1;
+
+// Luas Trapesium:
+console.log("Luas Trapesium: " + luasTrapesium);
+
