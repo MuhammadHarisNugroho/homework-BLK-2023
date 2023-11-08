@@ -23,3 +23,17 @@ let luasLingkaran = Math.PI * Math.pow(jariJari, 2);
 // Luas Lingkaran:
 console.log("Luas Lingkaran: " + luasLingkaran);
 
+// 3. Kalkulator Hitung Luas Persegi Panjang
+
+// Panjang Persegi Panjang:
+let panjang = 15;
+
+// Lebar Persegi Panjang:
+let lebar = 13;
+
+// Rumus:
+let luasPersegiPanjang = panjang * lebar;
+
+// Luas Persegi Panjang:
+console.log("Luas Persegi Panjang: " + luasPersegiPanjang);
+
