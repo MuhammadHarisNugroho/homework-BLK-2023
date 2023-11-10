@@ -8,3 +8,14 @@ function konversiCelciusKeFahrenheit(celcius) {
       konversiCelciusKeFahrenheit(25) +
       "°F"
   );
+  
+  // Konversi Suhu dari Fahrenheit ke Celcius
+  function konversiFahrenheitKeCelcius(fahrenheit) {
+    return ((fahrenheit - 32) * 5) / 9;
+  }
+  
+  console.log(
+    "Konversi suhu dari Fahrenheit ke Celcius (77°F): " +
+      konversiFahrenheitKeCelcius(77) +
+      "°C"
+  );
