@@ -14,3 +14,13 @@ function hitungVolumeBalok(panjang, lebar, tinggi) {
     "Volume Balok dengan panjang 4, lebar 3, dan tinggi 6: " +
       hitungVolumeBalok(4, 3, 6)
   );
+
+  // Menghitung Volume Tabung
+function hitungVolumeTabung(jariJari, tinggi) {
+    return Math.PI * Math.pow(jariJari, 2) * tinggi;
+  }
+  
+  console.log(
+    "Volume Tabung dengan jari-jari 3 dan tinggi 8: " + hitungVolumeTabung(3, 8)
+  );
+  
