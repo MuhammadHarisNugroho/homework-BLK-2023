@@ -8,7 +8,30 @@
 </head>
 
 <body>
+    <h2>PT. SEJAHTERA ABADI</h2>
+
+
+        <label for="nama">Nama: </label>
+        <input type="text" id="nama" placeholder="Masukkan Nama Karyawan">
+
+        <label for="jamKerja">Jam Kerja: </label>
+        <input type="text" id="jamKerja" placeholder="Masukkan Jumlah Jam Kerja">
+
+        <button onclick="hitungUpah()">Hitung Upah</button>
+
+        <table id="hasilTable">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Upah</th>
+                </tr>
+            </thead>
+            <tbody id="hasilBody">
+            </tbody>
+        </table>
     
+
+    <script src="script.js"></script>
 </body>
 
 </html>
