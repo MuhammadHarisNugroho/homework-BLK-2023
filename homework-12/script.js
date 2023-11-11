@@ -20,3 +20,28 @@ CLUE : gunakan IF-ELSE
 
 // Menerima input nama dan jumlah jam kerja
 
+function hitungUpah() {
+    var nama = document.getElementById("nama").value;
+    var jamKerja = parseFloat(document.getElementById("jamKerja").value);
+  
+    var gaji;
+    if (jamKerja <= 48) {
+      gaji = jamKerja * 2000;
+    } else {
+      var lembur = jamKerja - 48;
+      gaji = 48 * 2000 + lembur * 3000;
+    }
+  
+    // Menambahkan hasil ke tabel
+    var table = document.getElementById("hasilTable");
+    var tbody = document.getElementById("hasilBody");
+  
+    var newRow = tbody.insertRow();
+    var cell1 = newRow.insertCell(0);
+    var cell2 = newRow.insertCell(1);
+  
+    cell1.innerHTML = nama;
+    cell2.innerHTML = gaji;
+
+    alert("Data berhasil ditambahkan!");
+  }
