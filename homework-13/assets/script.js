@@ -7,4 +7,12 @@
 function generateTable(type) {
   const table = document.getElementById('resultTable');
   table.innerHTML = "<tr><th>Angka</th><th>Keterangan</th></tr>";
+
+  // FOR
+  if (type === 'for') {
+      alert("Warning!! \nKamu berhasil mengklik tombol FOR! \nJangan lupa ketika ingin klik tombol WHILE, \nharus klik tombol RESET dahulu! \nMade by Haris 13/11/23");
+      for (let i = 1; i <= 50; i++) {
+          table.innerHTML += `<tr><td>${i}</td><td>${i % 2 === 0 ? 'Genap' : 'Ganjil'}</td></tr>`;
+      }
+  }
 }
