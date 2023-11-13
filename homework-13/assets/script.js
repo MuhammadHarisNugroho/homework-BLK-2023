@@ -26,3 +26,7 @@ function generateTable(type) {
       }
   }
 }
+
+function resetPage() {
+  location.reload();
+}
