@@ -33,3 +33,8 @@ function reverseKata(kataAwal) {
       currentRow.cells[1].innerHTML = reverseKata(editedKata);
     }
   }
+
+  function hapusKata(button) {
+    var currentRow = button.parentNode.parentNode;
+    currentRow.parentNode.removeChild(currentRow);
+  }
