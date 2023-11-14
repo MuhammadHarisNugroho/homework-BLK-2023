@@ -22,3 +22,14 @@ function reverseKata(kataAwal) {
 
     document.getElementById('inputKata').value = '';
   }
+
+  function editKata(button) {
+    var currentRow = button.parentNode.parentNode;
+    var kataAwal = currentRow.cells[0].innerHTML;
+
+    var editedKata = prompt("Edit kata:", kataAwal);
+    if (editedKata !== null) {
+      currentRow.cells[0].innerHTML = editedKata;
+      currentRow.cells[1].innerHTML = reverseKata(editedKata);
+    }
+  }
