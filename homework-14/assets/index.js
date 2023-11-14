@@ -5,15 +5,15 @@ function reverseKata(kataAwal) {
   }
 
   function tambahKata() {
-    var kataAwal = document.getElementById('inputKata').value;
-    var kataTerbalik = reverseKata(kataAwal);
+    let kataAwal = document.getElementById('inputKata').value;
+    let kataTerbalik = reverseKata(kataAwal);
 
-    var table = document.getElementById('kataTable').getElementsByTagName('tbody')[0];
-    var newRow = table.insertRow(table.rows.length);
+    let table = document.getElementById('kataTable').getElementsByTagName('tbody')[0];
+    let newRow = table.insertRow(table.rows.length);
     
-    var cell1 = newRow.insertCell(0);
-    var cell2 = newRow.insertCell(1);
-    var cell3 = newRow.insertCell(2);
+    let cell1 = newRow.insertCell(0);
+    let cell2 = newRow.insertCell(1);
+    let cell3 = newRow.insertCell(2);
 
     cell1.innerHTML = kataAwal;
     cell2.innerHTML = kataTerbalik;
@@ -24,10 +24,10 @@ function reverseKata(kataAwal) {
   }
 
   function editKata(button) {
-    var currentRow = button.parentNode.parentNode;
-    var kataAwal = currentRow.cells[0].innerHTML;
+    let currentRow = button.parentNode.parentNode;
+    let kataAwal = currentRow.cells[0].innerHTML;
 
-    var editedKata = prompt("Edit kata:", kataAwal);
+    let editedKata = prompt("Edit kata:", kataAwal);
     if (editedKata !== null) {
       currentRow.cells[0].innerHTML = editedKata;
       currentRow.cells[1].innerHTML = reverseKata(editedKata);
@@ -35,6 +35,6 @@ function reverseKata(kataAwal) {
   }
 
   function hapusKata(button) {
-    var currentRow = button.parentNode.parentNode;
+    let currentRow = button.parentNode.parentNode;
     currentRow.parentNode.removeChild(currentRow);
   }
