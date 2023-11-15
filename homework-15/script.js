@@ -14,3 +14,9 @@ console.log(mahasiswa);
 console.log("\n3. Nama Bob, David, dan Fernando:");
 console.log(mahasiswa.slice(1, 5));
 
+// 4. Hapus nama "Jackson" dari array
+mahasiswa = mahasiswa.filter((nama) => nama !== "Jackson");
+
+console.log("\n4. Nama-nama mahasiswa setelah penghapusan 'Jackson':");
+console.log(mahasiswa);
+
