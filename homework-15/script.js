@@ -38,3 +38,8 @@ mahasiswa[mahasiswa.indexOf("Fernando")] = "Francesco";
 console.log("\n7. Nama-nama mahasiswa setelah perubahan 'Fernando' menjadi 'Francesco':");
 console.log(mahasiswa);
 
+// 8. Hapus nama "Ethan" dari array
+mahasiswa = mahasiswa.filter((nama) => nama !== "Ethan");
+
+console.log("\n8. Nama-nama mahasiswa setelah penghapusan 'Ethan':");
+console.log(mahasiswa);
