@@ -26,3 +26,9 @@ mahasiswa = mahasiswa.filter((nama) => nama !== "Andrew");
 console.log("\n5. Nama-nama mahasiswa setelah penghapusan 'Andrew':");
 console.log(mahasiswa);
 
+// 6. Tambahkan nama Andy sebelum Bob
+mahasiswa.splice(1, 0, "Andy");
+
+console.log("\n6. Nama-nama mahasiswa setelah penambahan 'Andy':");
+console.log(mahasiswa);
+
