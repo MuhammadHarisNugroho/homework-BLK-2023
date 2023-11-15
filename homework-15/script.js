@@ -32,3 +32,9 @@ mahasiswa.splice(1, 0, "Andy");
 console.log("\n6. Nama-nama mahasiswa setelah penambahan 'Andy':");
 console.log(mahasiswa);
 
+// 7. Ubah nama Fernando menjadi Francesco
+mahasiswa[mahasiswa.indexOf("Fernando")] = "Francesco";
+
+console.log("\n7. Nama-nama mahasiswa setelah perubahan 'Fernando' menjadi 'Francesco':");
+console.log(mahasiswa);
+
