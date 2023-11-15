@@ -20,3 +20,9 @@ mahasiswa = mahasiswa.filter((nama) => nama !== "Jackson");
 console.log("\n4. Nama-nama mahasiswa setelah penghapusan 'Jackson':");
 console.log(mahasiswa);
 
+// 5. Hapus nama "Andrew" dari array
+mahasiswa = mahasiswa.filter((nama) => nama !== "Andrew");
+
+console.log("\n5. Nama-nama mahasiswa setelah penghapusan 'Andrew':");
+console.log(mahasiswa);
+
