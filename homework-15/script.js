@@ -10,3 +10,7 @@ mahasiswa = mahasiswa.concat(["Harold", "Iglesias", "Jackson"]);
 console.log("\n2. Nama-nama mahasiswa setelah penambahan:");
 console.log(mahasiswa);
 
+// 3. Tampilkan nama Bob, David, dan Fernando pada console
+console.log("\n3. Nama Bob, David, dan Fernando:");
+console.log(mahasiswa.slice(1, 5));
+
