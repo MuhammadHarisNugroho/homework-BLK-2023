@@ -12,3 +12,5 @@ function karawang() {
   
     return resultArray;
   }
+  
+  const karawangArray = karawang();
