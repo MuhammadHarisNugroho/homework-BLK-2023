@@ -14,3 +14,4 @@ function karawang() {
   }
   
   const karawangArray = karawang();
+  console.log(karawangArray);
