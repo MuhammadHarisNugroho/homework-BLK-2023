@@ -10,4 +10,5 @@ function karawang() {
       resultArray.push(newArray);
     }
   
+    return resultArray;
   }
