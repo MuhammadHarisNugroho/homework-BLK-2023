@@ -10,10 +10,16 @@
 // $nama = "Hariss";
 
 // Operator matematika : + - * /
-$x = 10;
-$y = 20;
+// $x = 10;
+// $y = 20;
 
-echo ($x * $y);
+// echo ($x * $y);
+
+// Oeprator menggabungkan string (.)
+$nm_dpn = "Haris";
+$nama_belakang = "Uchiha";
+
+echo "<h1>" . $nm_dpn. " " .$nama_belakang . "</h1>";
 
 
 
