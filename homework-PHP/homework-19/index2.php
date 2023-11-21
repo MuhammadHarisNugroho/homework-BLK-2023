@@ -22,11 +22,15 @@
 // echo "<h1>" . $nm_dpn. " " .$nama_belakang . "</h1>";
 
 // Operator Assignment : +=, -=, *=, /=
-$angka = 5;
+// $angka = 5;
 
-$angka += 7;
+// $angka += 7;
 
-echo $angka;
+// echo $angka;
+
+// Operator perbandingan : >, <, >=, <=, !=
+// var_dump(10 != 20);
+// var_dump(20 > 6);
 
 
 
