@@ -15,6 +15,9 @@ function generateSegitiga() {
             let cell = row.insertCell();
             cell.appendChild(document.createTextNode(' '));
         }
-        
+        for (let k = 1; k <= i * 2 - 1; k++) {
+            let cell = row.insertCell();
+            cell.appendChild(document.createTextNode('*'));
+        }
     }
 }
