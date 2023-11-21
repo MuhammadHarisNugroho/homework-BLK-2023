@@ -8,4 +8,13 @@ function generateSegitiga() {
         return;
     }
 
+    // Membuat segitiga sama kaki terbalik
+    for (let i = tinggiSegitiga; i >= 1; i--) {
+        let row = hasilSegitiga.insertRow();
+        for (let j = tinggiSegitiga - i; j > 0; j--) {
+            let cell = row.insertCell();
+            cell.appendChild(document.createTextNode(' '));
+        }
+        
+    }
 }
