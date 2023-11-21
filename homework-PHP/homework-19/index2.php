@@ -7,7 +7,13 @@
 // Variabel tidak boleh memakai spasi
 // Variabel tidak boleh diawali dengan angka
 // Variabel boleh memakai angka
-$nama = "Hariss";
+// $nama = "Hariss";
+
+// Operator matematika : + - * /
+$x = 10;
+$y = 20;
+
+echo ($x * $y);
 
 
 
