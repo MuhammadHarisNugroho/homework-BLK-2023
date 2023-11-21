@@ -32,6 +32,11 @@
 // var_dump(10 != 20);
 // var_dump(20 > 6);
 
+// Operator Logika : &&, ||, !
+var_dump(!true);
+
+$angka2 = 100;
+var_dump(@$angka2 < 200 && $angka2 % 2);
 
 
 ?>
