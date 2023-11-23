@@ -16,5 +16,6 @@ function updateClock() {
   }
   
   // Panggil fungsi updateClock setiap detik
+  //
   setInterval(updateClock, 1000);
   
