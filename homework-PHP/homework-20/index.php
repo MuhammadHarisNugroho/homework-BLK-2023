@@ -24,10 +24,37 @@
 // echo mktime(0, 0, 0, 9, 8, 2001);
 
 // Strtotime -> Mengubah string menjadi tanggal
-echo strtotime("22 November 2023"), "<br>";
+
 
 // date_parse => Memecah tanggal
-print_r(date_parse("2023-11-22"));
+// print_r(date_parse("2023-11-22"));
 
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Clock</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      margin: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<?php
+// Set zona waktu ke WIB (Waktu Indonesia Bagian Barat)
+date_default_timezone_set('Asia/Jakarta');
+
+
+
+?>
+
+</body>
+</html>
