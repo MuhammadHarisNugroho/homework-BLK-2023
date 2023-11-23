@@ -55,6 +55,9 @@ date_default_timezone_set('Asia/Jakarta');
 
 
 ?>
+<script src="index.js"></script>
+
+<p id="currentDateTime"></p>
 
 </body>
 </html>
