@@ -26,7 +26,8 @@
 // Strtotime -> Mengubah string menjadi tanggal
 echo strtotime("22 November 2023"), "<br>";
 
-
+// date_parse => Memecah tanggal
+print_r(date_parse("2023-11-22"));
 
 
 ?>
