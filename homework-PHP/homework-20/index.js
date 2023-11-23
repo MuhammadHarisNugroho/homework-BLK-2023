@@ -16,6 +16,7 @@ function updateClock() {
   }
   
   // Panggil fungsi updateClock setiap detik
-  //
   setInterval(updateClock, 1000);
   
+  // Panggil updateClock sekali pada saat halaman dimuat
+  window.onload = updateClock;
