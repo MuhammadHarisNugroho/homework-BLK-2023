@@ -21,7 +21,10 @@
 
 
 // mktime -> Membuat Waktu sendiri
-echo mktime(0, 0, 0, 9, 8, 2001);
+// echo mktime(0, 0, 0, 9, 8, 2001);
+
+// Strtotime -> Mengubah string menjadi tanggal
+echo strtotime("22 November 2023"), "<br>";
 
 
 
