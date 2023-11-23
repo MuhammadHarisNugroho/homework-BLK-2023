@@ -16,9 +16,12 @@
 // echo "Current Date and Time (WIB): $currentDateTime\n";
 
 //time
-echo time();
+// echo time();
 // Detik yang sudah berlalu sejak 1 Januari 1970
 
+
+// mktime -> Membuat Waktu sendiri
+echo mktime(0, 0, 0, 9, 8, 2001);
 
 
 
