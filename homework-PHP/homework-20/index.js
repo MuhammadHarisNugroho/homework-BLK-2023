@@ -15,3 +15,6 @@ function updateClock() {
     document.getElementById('currentDateTime').innerHTML = "Current Date and Time (WIB): " + formattedDateTime;
   }
   
+  // Panggil fungsi updateClock setiap detik
+  setInterval(updateClock, 1000);
+  
