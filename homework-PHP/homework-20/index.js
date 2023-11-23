@@ -11,6 +11,7 @@ function updateClock() {
       ('0' + currentDate.getMinutes()).slice(-2) + ':' +
       ('0' + currentDate.getSeconds()).slice(-2);
   
-    
+    // Tampilkan di elemen dengan id "currentDateTime"
+    document.getElementById('currentDateTime').innerHTML = "Current Date and Time (WIB): " + formattedDateTime;
   }
   
