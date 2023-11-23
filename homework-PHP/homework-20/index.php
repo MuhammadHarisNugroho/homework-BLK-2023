@@ -6,7 +6,10 @@
 // Date, Time, MKtime, Strtotime
 
 // date() -> Tanggal
-echo date('l, d F o, H:i:s');
+// echo date('l, d F o, H:i:s');
+
+$currentDateTime = date('Y-m-d H:i:s');
+echo "Current Date and Time: $currentDateTime\n";
 
 
 
