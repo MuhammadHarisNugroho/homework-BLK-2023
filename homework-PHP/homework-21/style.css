@@ -7,3 +7,12 @@ body {
     margin: 20px;
 }
 
+.box {
+    width: 70%;
+    background-color: #fff;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
