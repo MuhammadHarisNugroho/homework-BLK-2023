@@ -36,6 +36,9 @@
                 <li data-label="Alamat: ">
                     <?php echo $data[2]; ?>
                 </li>
+                <li data-label="Prodi: ">
+                    <?php echo $data[3]; ?>
+                </li>
                 
             <?php endforeach; ?>
         </ul>
