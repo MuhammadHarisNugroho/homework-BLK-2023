@@ -11,7 +11,9 @@
 <body>
     <div class="container"></div>
     <h1>Data Mahasiswa</h1>
-    
+    <div class="box">
+        
+    </div>
 </body>
 
 </html>
