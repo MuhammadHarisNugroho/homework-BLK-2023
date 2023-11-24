@@ -24,7 +24,11 @@
         ];
         ?>
 
-        
+        <ul>
+            <?php foreach ($mahasiswa as $data): ?>
+                
+            <?php endforeach; ?>
+        </ul>
 
     </div>
 </body>
