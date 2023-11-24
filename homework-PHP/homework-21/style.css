@@ -34,3 +34,18 @@ li {
     padding-right: 50px;
 }
 
+img {
+    border-radius: 50%;
+    margin-left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+li::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: inline-block;
+    width: 80px;
+    color: #333;
+}
+
