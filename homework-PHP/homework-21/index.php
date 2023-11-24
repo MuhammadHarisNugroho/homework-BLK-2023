@@ -39,7 +39,7 @@
                 <li data-label="Prodi: ">
                     <?php echo $data[3]; ?>
                 </li>
-                
+                <hr>
             <?php endforeach; ?>
         </ul>
 
