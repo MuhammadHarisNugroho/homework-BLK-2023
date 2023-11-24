@@ -30,6 +30,9 @@
                     <?php echo $data[0]; ?><img src="<?php echo $mahasiswa[0][4]; ?>"
                         alt="Profil <?php echo $mahasiswa[0][1]; ?>" width="50" height="50">
                 </li>
+                <li data-label="Nama: ">
+                    <?php echo $data[1]; ?>
+                </li>
                 
             <?php endforeach; ?>
         </ul>
