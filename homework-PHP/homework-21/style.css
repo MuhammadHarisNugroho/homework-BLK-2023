@@ -16,3 +16,21 @@ body {
     border-radius: 8px;
 }
 
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #555;
+    padding-right: 50px;
+}
+
