@@ -26,6 +26,10 @@
 
         <ul>
             <?php foreach ($mahasiswa as $data): ?>
+                <li data-label="NIM: ">
+                    <?php echo $data[0]; ?><img src="<?php echo $mahasiswa[0][4]; ?>"
+                        alt="Profil <?php echo $mahasiswa[0][1]; ?>" width="50" height="50">
+                </li>
                 
             <?php endforeach; ?>
         </ul>
