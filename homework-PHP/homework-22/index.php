@@ -30,7 +30,24 @@
         ]
     ];
     ?>
-    
+    <?php foreach ($profiles as $profile) : ?>
+        <div class="ps">
+            <div class="card">
+                <div class="border1"></div>
+                <div class="circle-photo">
+                    <img src="<?php echo $profile['image']; ?>" alt="" class="t" width="200" height="200" />
+                </div>
+                <h1 class="title"><?php echo $profile['name']; ?></h1>
+                <p class="positon"><?php echo $profile['position']; ?></p>
+                <h5 class="h5">
+                    <?php echo $profile['description']; ?>
+                </h5>
+                <div class="button-container">
+                    <button>Lihat Profil</button>
+                </div>
+            </div>
+        </div>
+    <?php endforeach; ?>
 </body>
 
 </html>
