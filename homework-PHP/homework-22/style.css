@@ -15,4 +15,26 @@
       height: 100vh;
     }
 
+    .ps {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      opacity: 0;
+      transform: translateX(20px);
+      animation: fadeInLeft 1s ease-in-out forwards;
+    }
+
+    @keyframes fadeInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
     
