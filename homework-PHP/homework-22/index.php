@@ -21,6 +21,12 @@
             "position" => "Front-end Developer",
             "image" => "woman.jpg",
             "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam dignissimos voluptas pariatur, inventore tempora asperiores iste exercitationem illo corporis corrupti molestiae, sint mollitia nostrum illum fugit provident beatae aliquid aperiam!",
+        ],
+        [
+            "name" => "William Hill",
+            "position" => "Back-end Developer",
+            "image" => "man2.jpg",
+            "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam dignissimos voluptas pariatur, inventore tempora asperiores iste exercitationem illo corporis corrupti molestiae, sint mollitia nostrum illum fugit provident beatae aliquid aperiam!",
         ]
     ];
     ?>
