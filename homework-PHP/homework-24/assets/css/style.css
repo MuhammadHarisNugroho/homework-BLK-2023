@@ -204,4 +204,14 @@ section {
   transition: 1.5s;
 }
 
+.form .inputBx input[type="submit"]:hover {
+  background: linear-gradient(
+    115deg,
+    rgba(0, 0, 0, 0.1),
+    rgba(255, 255, 255, 0.25)
+  );
+  color: #fff;
+  transition: 0.5s;
+}
+
 
