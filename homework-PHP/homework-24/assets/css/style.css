@@ -77,3 +77,12 @@ section {
   z-index: 2;
 }
 
+.box .square:nth-child(3) {
+  width: 60px;
+  height: 60px;
+  bottom: 85px;
+  right: -45px;
+  z-index: 2;
+}
+
+
