@@ -69,4 +69,11 @@ section {
   right: -45px;
 }
 
+.box .square:nth-child(2) {
+  width: 150px;
+  height: 150px;
+  top: 105px;
+  left: -125px;
+  z-index: 2;
+}
 
