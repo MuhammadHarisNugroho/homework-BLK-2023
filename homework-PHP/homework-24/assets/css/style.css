@@ -62,4 +62,11 @@ section {
   }
 }
 
+.box .square:nth-child(1) {
+  width: 100px;
+  height: 100px;
+  top: -15px;
+  right: -45px;
+}
+
 
