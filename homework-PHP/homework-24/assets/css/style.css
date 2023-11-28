@@ -293,4 +293,33 @@ section {
   transition: 0.4s;
 }
 
+.toggle-switch input:checked + .slider {
+  background-color: #aac8a7;
+}
 
+.toggle-switch .slider::before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 2px;
+  bottom: 2.5px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.toggle-switch input:checked + .slider::before {
+  transform: translateX(20px);
+}
+
+.toggle-switch .slider:hover {
+  background-color: #888;
+}
+
+.toggle-switch .label-text {
+  position: relative;
+  top: -3px;
+  margin-left: 45px;
+  color: #fff;
+}
