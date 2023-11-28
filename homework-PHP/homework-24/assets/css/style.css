@@ -171,3 +171,15 @@ section {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
+.form .inputBx .password-control {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+  transition: 0.5s;
+}
+
+
