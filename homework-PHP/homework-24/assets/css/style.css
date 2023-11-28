@@ -214,4 +214,17 @@ section {
   transition: 0.5s;
 }
 
+.form .inputBx input::placeholder {
+  color: #fff;
+}
+
+.form .inputBx span {
+  position: absolute;
+  left: 30px;
+  padding: 7px;
+  display: inline-block;
+  color: #fff;
+  transition: 0.5s;
+  pointer-events: none;
+}
 
