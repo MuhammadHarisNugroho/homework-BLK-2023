@@ -228,3 +228,10 @@ section {
   pointer-events: none;
 }
 
+.form .inputBx input:focus ~ span,
+.form .inputBx input:valid ~ span {
+  transform: translateX(-30px) translateY(-25px);
+  font-size: 12px;
+}
+
+
