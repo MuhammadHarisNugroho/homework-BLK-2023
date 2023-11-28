@@ -187,3 +187,10 @@ section {
   transition: 0.5s;
 }
 
+.form .inputBx .fas {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+}
+
+
