@@ -241,4 +241,32 @@ section {
   margin-top: 5px;
 }
 
+.form p a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  transition: text-decoration 0.5s;
+}
+
+.form p a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, transparent 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 1s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.form p a:hover::before {
+    background-position: 0 0;
+    transform: scaleX(1);
+}
+
+
 
