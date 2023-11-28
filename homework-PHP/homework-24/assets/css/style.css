@@ -182,4 +182,8 @@ section {
   transition: 0.5s;
 }
 
+.form .inputBx .view {
+  background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+  transition: 0.5s;
+}
 
