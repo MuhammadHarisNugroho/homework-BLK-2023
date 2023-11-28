@@ -234,4 +234,11 @@ section {
   font-size: 12px;
 }
 
+.form p {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
 
