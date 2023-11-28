@@ -277,4 +277,8 @@ section {
   margin-bottom: 10px;
 }
 
+.toggle-switch input {
+  display: none;
+}
+
 
