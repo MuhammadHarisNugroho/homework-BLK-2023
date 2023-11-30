@@ -1,0 +1,58 @@
+[
+    {
+        "nim": "10115425",
+        "nama": "Alwan Hibatullah",
+        "fakultas": "Teknik dan Ilmu Komputer",
+        "prodi": "Teknik Informatika",
+        "alamat": "Rawagabus, Johar",
+        "ipk": 2.75
+    },
+    {
+        "nim": "22416255201204",
+        "nama": "Akbar Rahmat Konsignee",
+        "fakultas": "Ilmu Komputer",
+        "prodi": "Teknik Informatika",
+        "alamat": "Tokyo, Cikampek",
+        "ipk": 3.6
+    },
+    {
+        "nim": "22416255201165",
+        "nama": "Bisma Chandra",
+        "fakultas": "Ilmu Komputer",
+        "prodi": "Teknik Informatika",
+        "alamat": "Isekai, Afterlife",
+        "ipk": 3.64
+    },
+    {
+        "nim": "22416255201138",
+        "nama": "Fajar Maulana Sikumbang",
+        "fakultas": "Ilmu Komputer",
+        "prodi": "Ilmu Komputer",
+        "alamat": "Berlin, Telagasari",
+        "ipk": 3.74
+    },
+    {
+        "nim": "22416255201166",
+        "nama": "Mochamad Atilla Rahman Saleh",
+        "fakultas": "Ilmu Komputer",
+        "prodi": "Teknik Informatika",
+        "alamat": "London, Majalaya",
+        "ipk": 3.8
+    },
+    {
+        "nim": "1810631050150",
+        "nama": "Muhammad Haris Nugroho",
+        "fakultas": "Keguruan dan Pendidikan",
+        "prodi": "Pend. Matematika",
+        "alamat": "Karaba, Germany",
+        "ipk": 3.8
+    },
+    {
+        "nim": "22416255201152",
+        "nama": "Putra Pamungkas",
+        "fakultas": "Ilmu Komputer",
+        "prodi": "Ilmu Komputer",
+        "alamat": "Stockholm, Purwasari",
+        "ipk": "3.5"
+    }
+]
