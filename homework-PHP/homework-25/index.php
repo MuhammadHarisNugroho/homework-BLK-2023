@@ -18,7 +18,19 @@ $mahasiswa = json_decode($getJSONFile);
 </head>
 
 <body>
-    
+    <a href="add.php">Add New Data</a>
+    <table border="1" cellpadding="10" cellspacing="1">
+        <tr>
+            <th>NIM</th>
+            <th>NAMA</th>
+            <th>FAKULTAS</th>
+            <th>PRODI</th>
+            <th>ALAMAT</th>
+            <th>IPK</th>
+            <th>AKSI</th>
+        </tr>
+
+    </table>
 </body>
 
 </html>
