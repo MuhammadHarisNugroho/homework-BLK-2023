@@ -30,6 +30,17 @@ $mahasiswa = json_decode($getJSONFile);
             <th>AKSI</th>
         </tr>
 
+        <?php
+        // Inisialisasi awal index
+        $index = 0;
+        //tampilkan data dari JSON dengan foreach
+        foreach ($mahasiswa as $mhs): ?>
+
+            <?php
+            // Increment Index
+            $index++;
+        endforeach ?>
+
     </table>
 </body>
 
