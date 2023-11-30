@@ -57,6 +57,8 @@ $mahasiswa = json_decode($getJSONFile);
                 </td>
                 <td>
                     <a href="edit2.php?index=<?= $index ?>">Edit</a>
+                    <a href="delete.php?index=<?= $index ?>"
+                        onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">Hapus</a>
                 </td>
             </tr>
             
