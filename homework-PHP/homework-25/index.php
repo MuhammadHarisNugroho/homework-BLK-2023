@@ -36,6 +36,30 @@ $mahasiswa = json_decode($getJSONFile);
         //tampilkan data dari JSON dengan foreach
         foreach ($mahasiswa as $mhs): ?>
 
+            <tr>
+                <td>
+                    <?= $mhs->nim ?>
+                </td>
+                <td>
+                    <?= $mhs->nama ?>
+                </td>
+                <td>
+                    <?= $mhs->fakultas ?>
+                </td>
+                <td>
+                    <?= $mhs->prodi ?>
+                </td>
+                <td>
+                    <?= $mhs->alamat ?>
+                </td>
+                <td>
+                    <?= $mhs->ipk ?>
+                </td>
+                <td>
+                    
+                </td>
+            </tr>
+
             <?php
             // Increment Index
             $index++;
