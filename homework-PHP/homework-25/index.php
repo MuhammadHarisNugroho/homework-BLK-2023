@@ -56,10 +56,10 @@ $mahasiswa = json_decode($getJSONFile);
                     <?= $mhs->ipk ?>
                 </td>
                 <td>
-                    
+                    <a href="edit2.php?index=<?= $index ?>">Edit</a>
                 </td>
             </tr>
-
+            
             <?php
             // Increment Index
             $index++;
