@@ -1,3 +1,48 @@
+<?php
+// Ambil inde dari URL
+$index = isset($_GET["index"]) ? $_GET["index"] : null;
+
+if (
+    !isset($_GET["index"])
+    ) {
+        header("Location: index.php");
+    exit();
+}
+// Ambil data dari JSON
+$getFileJSON = file_get_contents("data.json");
+$mahasiswa = json_decode($getFileJSON);
+
+$row = isset($mahasiswa[$index]) ? $mahasiswa[$index] : null;
+
+// Check if the form is submitted
+if (isset($_POST["simpan"])) {
+    // Membuat assoc, array untuk menampung data POST
+    $input = [
+        "nim" => $_POST["nim"],
+        "nama" => $_POST["nama"],
+        "fakultas" => $_POST["fakultas"],
+        "prodi" => $_POST["prodi"],
+        "alamat" => $_POST["alamat"],
+        "ipk" => $_POST["ipk"]
+    ];
+
+    // Update data yang dipilih
+    if ($row !== null) {
+        $mahasiswa[$index] = $input;
+
+        // Kembalikan ke file JSON
+        $data = json_encode($mahasiswa, JSON_PRETTY_PRINT);
+        file_put_contents("data.json", $data);
+
+        // Arahkan ke halaman index.php
+        header("Location: index.php");
+        exit(); // Ensure script stops after redirection
+    }
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
