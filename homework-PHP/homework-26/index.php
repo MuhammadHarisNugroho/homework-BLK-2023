@@ -9,7 +9,11 @@
 
 <body>
     <?php include("data.php") ?>
-    
+    <h1>List Produk</h1>
+
+    <table border="1" cellpadding="10" cellspacing="1">
+        
+    </table>
 
 </body>
 
