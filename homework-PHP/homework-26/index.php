@@ -19,7 +19,11 @@
             <th>Stok</th>
             <th>Aksi</th>
         </tr>
-        
+        <?php $i = 1;
+        foreach ($produk as $barang): ?>
+            
+            <?php $i++;
+        endforeach; ?>
     </table>
 
 </body>
