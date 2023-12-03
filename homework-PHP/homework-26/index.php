@@ -21,7 +21,25 @@
         </tr>
         <?php $i = 1;
         foreach ($produk as $barang): ?>
-            
+            <tr>
+                <td>
+                    <?= $i ?>
+                </td>
+                <td>
+                    <?= $barang["nama_barang"] ?>
+                </td>
+                <td>
+                    <?= $barang["harga"] ?>
+                </td>
+                <td>
+                    <?= $barang["stok"] ?>
+                </td>
+                <td>
+                    <a
+                        href="profil.php?kode_barang=<?= $barang["kode_barang"] ?>&nama_barang=<?= $barang["nama_barang"] ?>&harga=<?= $barang["harga"] ?>&stok=<?= $barang["stok"] ?>">Lihat
+                        Detail</a>
+                </td>
+            </tr>
             <?php $i++;
         endforeach; ?>
     </table>
