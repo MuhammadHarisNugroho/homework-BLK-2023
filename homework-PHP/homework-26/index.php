@@ -12,6 +12,13 @@
     <h1>List Produk</h1>
 
     <table border="1" cellpadding="10" cellspacing="1">
+        <tr>
+            <th>No.</th>
+            <th>Nama Barang</th>
+            <th>Harga</th>
+            <th>Stok</th>
+            <th>Aksi</th>
+        </tr>
         
     </table>
 
